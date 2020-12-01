@@ -1,0 +1,25 @@
+int main() {
+
+	int cs=0;
+	int ts=0;
+	int i=1;
+
+	while (i<=100)
+	{
+		  if(i%2 == 0){
+			  cs=cs+i;
+		  }
+		  else{
+			  ts=ts+i;
+		  }
+		  i++;
+
+	}
+	cout << "1 ile 100 arasındaki çift sayıların toplamı = " << cs << endl;
+	cout << "1 ile 100 arasındaki tek sayılar toplamı = " << ts << endl;
+
+
+
+
+	return 0;
+}
