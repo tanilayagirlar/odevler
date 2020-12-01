@@ -1,0 +1,22 @@
+int main() {
+int tToplam=0;
+int cToplam=0;
+for(int ts= 1; ts<=100 ; ts=ts+2)
+{
+tToplam=tToplam+ts;
+
+}
+
+for(int cs= 2; cs<=100 ; cs=cs+2)
+{
+  cToplam=cToplam+cs;
+
+}
+cout <<"1 ile 100 arasındaki tek sayılar toplamı = " << tToplam << endl;
+cout <<"1 ile 100 arasındaki çift sayılar toplamı = " << cToplam ;
+
+
+
+
+return 0;
+}
